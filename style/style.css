@@ -1,0 +1,42 @@
+#header-1 {
+  animation-name: titulo-animado;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes titulo-animado {
+  0% {
+    color: black;
+  }
+  25% {
+    color: rgb(83, 40, 194);
+  }
+  50% {
+    color: rgb(127, 91, 220);
+  }
+  75% {
+    color: rgb(57, 156, 255);
+  }
+  100% {
+    color: black;
+  }
+}
+
+/* Formulario */
+
+#form-img {
+  background-color: rgba(83, 40, 194, 80%);
+}
+
+div a:visited {
+  color: white;
+}
+
+div a:hover {
+  color: #0dcaf0;
+}
+
+div a {
+  transition: color 0.4s linear;
+}
