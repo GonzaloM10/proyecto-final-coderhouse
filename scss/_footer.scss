@@ -1,0 +1,16 @@
+@import "variables";
+
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: $fuente-suave;
+    }
+}
+
+div.col {
+    p {
+        margin-bottom: 0;
+    }
+}

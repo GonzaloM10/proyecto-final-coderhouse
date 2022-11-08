@@ -10,14 +10,17 @@
     justify-content: center;
     align-items: center;
     // img de fondo
-    background-image: url(../img/windows.jpg);
+    background: linear-gradient(
+    to top,
+    rgb(0 0 0 / .8), rgb(0 0 0 / 0)
+    ), url(../img/minimalista.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-    @media (max-width: 568px) {
+    @media (max-width: 400px) {
         & {
-            background-image: url(#);
+            max-height: 10rem;
         }
     }
 

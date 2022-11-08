@@ -1,15 +1,12 @@
+// import boostrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+// import variables del proyecto
+@import "variables";
+// importacion de estilos de pags
 @import "hero-index";
+@import "footer";
+@import "ayuda";
 
-a {
-    text-decoration: none;
-}
-
-div.col {
-    p {
-        margin-bottom: 0;
-    }
-}
 
 
 

@@ -1,0 +1,33 @@
+@import "variables";
+
+.form {
+    min-height: 90vh;
+    background: linear-gradient(
+    to top,
+    rgb(0 0 0 / .9), rgb(0 0 0 / .3)
+    ), url(../img/windows.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    textarea {
+        background-color: rgba($fuente-suave, .5);
+        resize: none;
+    }
+
+    input {
+        background-color: rgba($fuente-suave, .5);
+    }
+
+    label {
+        color: $fuente-suave;
+    }
+
+    p {
+        color: $fuente-suave;
+    }
+
+    .btn {
+        background-color: $primary;
+    }
+}
