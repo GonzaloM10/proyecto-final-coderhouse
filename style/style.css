@@ -10771,6 +10771,32 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.hero {
+  background-color: #5328c2;
+  margin: 0;
+  height: 70vh;
+  max-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/windows.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 568px) {
+  .hero {
+    background-image: url(#);
+  }
+}
+.hero h1, .hero .h1 {
+  color: #f8f9fa;
+}
+.hero p {
+  color: #f8f9fa;
+}
+
 a {
   text-decoration: none;
 }

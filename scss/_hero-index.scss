@@ -1,0 +1,32 @@
+@import "variables";
+
+.hero {
+    background-color: $color-principal;
+    margin: 0;
+    height: 70vh;
+    max-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // img de fondo
+    background-image: url(../img/windows.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (max-width: 568px) {
+        & {
+            background-image: url(#);
+        }
+    }
+
+
+    h1 {
+        color: $fuente-suave;
+    }
+
+    p {
+        color: $fuente-suave;
+    }
+}
