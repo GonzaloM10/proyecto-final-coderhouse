@@ -13,10 +13,18 @@
     textarea {
         background-color: rgba($fuente-suave, .5);
         resize: none;
+
+        &:focus{
+            background-color: rgba($fuente-suave, .7);
+        }
     }
 
     input {
         background-color: rgba($fuente-suave, .5);
+
+        &:focus{
+            background-color: rgba($fuente-suave, .7);
+        }
     }
 
     label {

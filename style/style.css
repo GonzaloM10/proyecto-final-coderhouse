@@ -10831,8 +10831,14 @@ div.col p {
   background-color: rgba(248, 249, 250, 0.5);
   resize: none;
 }
+.form textarea:focus {
+  background-color: rgba(248, 249, 250, 0.7);
+}
 .form input {
   background-color: rgba(248, 249, 250, 0.5);
+}
+.form input:focus {
+  background-color: rgba(248, 249, 250, 0.7);
 }
 .form label {
   color: #f8f9fa;
