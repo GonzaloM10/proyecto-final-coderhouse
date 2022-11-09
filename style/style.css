@@ -10797,6 +10797,14 @@ textarea.form-control-lg {
   color: #f8f9fa;
 }
 
+.navegacion {
+  background-color: #5328c2;
+}
+
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -10806,6 +10814,10 @@ a:visited {
 
 div.col p {
   margin-bottom: 0;
+}
+
+.footer {
+  background-color: #5328c2;
 }
 
 .form {
