@@ -1,14 +1,5 @@
 @import "variables";
 
-
-a {
-    text-decoration: none;
-
-    &:visited {
-        color: $fuente-suave;
-    }
-}
-
 div.col {
     p {
         margin-bottom: 0;
@@ -17,4 +8,20 @@ div.col {
 
 .footer {
     background-color: $color-principal;
+
+    a {
+        text-decoration: none;
+    
+        &:link {
+            color: $fuente-suave;
+        }
+    
+        &:active {
+            color: $fuente-suave;
+        }
+    
+        &:visited {
+            color: $fuente-suave;
+        }
+    }
 }

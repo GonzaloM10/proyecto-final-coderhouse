@@ -1,0 +1,15 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+// Animaciones cards
+
+.card--hover {
+    transition: all .5s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}

@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10805,19 +10806,24 @@ img {
   max-width: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: #f8f9fa;
-}
-
 div.col p {
   margin-bottom: 0;
 }
 
 .footer {
   background-color: #5328c2;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:link {
+  color: #f8f9fa;
+}
+.footer a:active {
+  color: #f8f9fa;
+}
+.footer a:visited {
+  color: #f8f9fa;
 }
 
 .form {
@@ -10848,6 +10854,34 @@ div.col p {
 }
 .form .btn {
   background-color: #0d6efd;
+}
+
+@media (max-width: 576px) {
+  .card__img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card__about {
+    min-width: 80%;
+  }
+}
+@media (max-width: 430px) {
+  .card__about {
+    min-width: 95%;
+  }
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.card--hover {
+  transition: all 0.5s ease;
+}
+.card--hover:hover {
+  transform: translateY(-10px);
 }
 
 /*# sourceMappingURL=style.css.map */
